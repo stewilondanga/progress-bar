@@ -46,6 +46,9 @@ $(".previous").click(function(){
 	if(animating) return false;
 	animating = true;
 
+	current_fs = $(this).parent();
+	previous_fs = $(this).parent().prev();
+
 	
 
 var navigate = (function() {
