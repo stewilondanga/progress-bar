@@ -12,7 +12,11 @@ body {
 /*basic reset*/
 * {margin: 0; padding: 0;}
 
+html {
+	height: 100%;
+	/*Image only BG fallback*/
 
+  
 
     h1 {
     	font-family: helvetica;
