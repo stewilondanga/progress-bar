@@ -7,7 +7,10 @@ $(".next").click(function(){
 	if(animating) return false;
 	animating = true;
 
+	current_fs = $(this).parent();
+	next_fs = $(this).parent().next();
 
+	
 
 var navigate = (function() {
 	$('.dd').toggle();
