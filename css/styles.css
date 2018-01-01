@@ -6,6 +6,10 @@ body {
   background-size: 100%;
 }
 
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
 
     h1 {
     	font-family: helvetica;
