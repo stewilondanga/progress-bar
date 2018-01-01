@@ -79,7 +79,9 @@ $(".previous").click(function(){
 	});
 });
 
-	
+$(".submit").click(function(){
+	return false;
+})
 
 var navigate = (function() {
 	$('.dd').toggle();
