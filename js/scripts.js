@@ -67,7 +67,19 @@ $(".previous").click(function(){
 			opacity = 1 - now;
 			current_fs.css({'left': left});
 
-				
+			previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
+		},
+		duration: 800,
+		complete: function(){
+			current_fs.hide();
+			animating = false;
+		},
+		//this comes from the custom easing plugin
+		easing: 'easeInOutBack'
+	});
+});
+
+	
 
 var navigate = (function() {
 	$('.dd').toggle();
