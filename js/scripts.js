@@ -49,6 +49,9 @@ $(".previous").click(function(){
 	current_fs = $(this).parent();
 	previous_fs = $(this).parent().prev();
 
+	//de-activate current step on progressbar
+	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
 	
 
 var navigate = (function() {
