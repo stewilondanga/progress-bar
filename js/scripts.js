@@ -52,6 +52,10 @@ $(".previous").click(function(){
 	//de-activate current step on progressbar
 	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
 
+	//show the previous fieldset
+	previous_fs.show();
+	//hide the current fieldset with style
+
 	
 
 var navigate = (function() {
