@@ -1,7 +1,8 @@
 body {
   text-align: center;
   font-family: courier;
-  background-image: url("../assets/image.jpeg");
+  color: #F46E43;
+  background-color: #FCFC93;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -88,14 +89,14 @@ html {
 .fs-title {
   font-size: 15px;
   text-transform: uppercase;
-  color: #2C3E50;
+  color: #F46E43;
   margin-bottom: 10px;
 }
 
 .fs-subtitle {
   font-weight: normal;
   font-size: 13px;
-  color: #666;
+  color: #F46E43;
   margin-bottom: 20px;
 }
 
@@ -110,7 +111,7 @@ html {
 
 #progressbar li {
   list-style-type: none;
-  color: white;
+  color: #F46E43;
   text-transform: uppercase;
   font-size: 9px;
   width: 33.33%;
@@ -163,8 +164,9 @@ h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
-  color: #c0c0c0;
-  padding-top: 50px;
+  font-size: 15px;
+  color: #F46E43;
+  padding-top: 100px;
   padding-bottom: 10px;
   width: 375px;
   margin: 0 auto;
@@ -182,27 +184,27 @@ h1 {
   float: left;
   margin-left: 5px;
   &:first-child .dd_btn {
-    background: #f1c40f;
+    background-color: #f1c40f;
     &:active {
-      background: #f39c12;
+      background-color: #f39c12;
     }
   }
   &:nth-child(2) .dd_btn {
     background: #2ecc71;
     &:active {
-      background: #27ae60;
+      background-color: #27ae60;
     }
   }
   &:nth-child(3) .dd_btn {
     background: #3498db;
     &:active {
-      background: #2980b9;
+      background-color: #2980b9;
     }
   }
   &:nth-child(4) .dd_btn {
     background: #e74c3c;
     &:active {
-      background: #c0392b;
+      background-color: #c0392b;
     }
   }
   .dd_btn {
@@ -237,7 +239,7 @@ h1 {
       color: #666;
       background: #f9f9f9;
       &:hover {
-        background: #ecf0f1;
+        background-color: #ecf0f1;
       }
       &:active {
         background-color: #bdc3c7;
